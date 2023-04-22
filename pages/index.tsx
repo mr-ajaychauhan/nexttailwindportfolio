@@ -1,8 +1,6 @@
 import Head from "next/head";
 import {
-  AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillYoutube,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
@@ -11,13 +9,8 @@ import code from "../public/code.png";
 import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
 import Link from "next/link";
+// import Pdf from "/public/resume.pdf"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -41,12 +34,13 @@ export default function Home() {
                 />
               </li>
               <li>
-                <a
+                <Link
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href={'https://drive.google.com/file/d/1H9BdqlJaNev7Tfd-hgHvcqGG2ktb69df/view?usp=drivesdk'}
+                  target="_blank"
                 >
                   Resume
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -61,7 +55,7 @@ export default function Home() {
               i am a MERN Full Stack Developer and i Have also wrok with GraphQL, Postgresql and Next Js . 
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <Link href="#" >
+              <Link href="https://linkedin.com/in/mr-ajaychauhan" target="_blank" >
               <AiFillLinkedin />
               </Link>
               
@@ -72,21 +66,22 @@ export default function Home() {
           </div>
         </section>
         <section>
+        <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">Service I offer</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+              As a software developer, I offer freelance services to clients seeking top-notch software solutions. With my years of experience in the industry, I provide a wide range of services to meet your specific needs.
+              
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+            Whether you are a small business owner looking to improve your online presence or a large corporation seeking complex software solutions, I am here to help. My expertise includes developing custom software applications, designing user-friendly websites, and creating mobile applications that meet the needs of businesses of all sizes.
+            </p>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            So, if you are looking for a reliable software developer who can provide project-based services or work as a freelancer, look no further. Contact me today to discuss your software development needs, and let us work together to bring your ideas to life.
             </p>
           </div>
+          
+        </section>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image alt="img1" src={design} width={100} height={100} />
@@ -97,11 +92,7 @@ export default function Home() {
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image alt='profile' src={code} width={100} height={100} />
@@ -109,14 +100,10 @@ export default function Home() {
                 Code your dream project
               </h3>
               <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
+                Do you have an idea for your next great website? Let us make it a
                 reality.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+             
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image alt='pic12' src={consulting} width={100} height={100} />
@@ -125,87 +112,11 @@ export default function Home() {
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              
             </div>
           </div>
         </section>
-        <section className="py-10">
-          <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
-            </p>
-          </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
-              <Image
-                className="rounded-lg object-cover"
-                width={100}
-                height={100}
-                alt="obj6"
-                src={web1}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={100}
-                height={100}
-                alt="obj5"
-                src={web2}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={100}
-                height={100}
-                alt="obj4"
-                src={web3}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={100}
-                height={100}
-              alt="obj3"
-                src={web4}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={100}
-                height={100}
-alt="objcetCover"
-                src={web5}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                alt="objectCover"
-                className="rounded-lg object-cover"
-                width={100}
-                height={100}
-                src={web6}
-              />
-            </div>
-          </div>
-        </section>
+        
       </main>
     </div>
   );
