@@ -10,7 +10,6 @@ import design from "../public/design.png";
 import consulting from "../public/consulting.png";
 import Image from "next/image";
 import Link from "next/link";
-// import Pdf from "/public/resume.pdf"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
