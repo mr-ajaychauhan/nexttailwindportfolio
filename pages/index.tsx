@@ -35,7 +35,7 @@ export default function Home() {
               <li>
                 <Link
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href={'https://drive.google.com/file/d/1H9BdqlJaNev7Tfd-hgHvcqGG2ktb69df/view?usp=drivesdk'}
+                  href={'https://drive.google.com/file/d/1iHqCr7muynpdJ1ph6sgcrgAVAZqgB89w/view?usp=sharing'}
                   target="_blank"
                 >
                   Resume
@@ -48,16 +48,16 @@ export default function Home() {
               Ajay Chauhan
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Lead Front End Engineer & IOS Developer
+              Senior Software Developer & IOS Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              i am a MERN Full Stack Developer and i Have also wrok with GraphQL, Postgresql and Next Js . 
+              i am a MERN Full Stack Developer and i Have also work with GraphQL, Postgresql and Next Js .
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <Link href="https://linkedin.com/in/mr-ajaychauhan" target="_blank" >
-              <AiFillLinkedin />
+                <AiFillLinkedin />
               </Link>
-              
+
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} alt="fill" objectFit="cover" />
@@ -65,22 +65,22 @@ export default function Home() {
           </div>
         </section>
         <section>
-        <section className="py-10">
-          <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Service I offer</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              As a software developer, I offer freelance services to clients seeking top-notch software solutions. With my years of experience in the industry, I provide a wide range of services to meet your specific needs.
-              
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Whether you are a small business owner looking to improve your online presence or a large corporation seeking complex software solutions, I am here to help. My expertise includes developing custom software applications, designing user-friendly websites, and creating mobile applications that meet the needs of businesses of all sizes.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            So, if you are looking for a reliable software developer who can provide project-based services or work as a freelancer, look no further. Contact me today to discuss your software development needs, and let us work together to bring your ideas to life.
-            </p>
-          </div>
-          
-        </section>
+          <section className="py-10">
+            <div>
+              <h3 className="text-3xl py-1 dark:text-white ">Service I offer</h3>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+                As a software developer, I offer freelance services to clients seeking top-notch software solutions. With my years of experience in the industry, I provide a wide range of services to meet your specific needs.
+
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+                Whether you are a small business owner looking to improve your online presence or a large corporation seeking complex software solutions, I am here to help. My expertise includes developing custom software applications, designing user-friendly websites, and creating mobile applications that meet the needs of businesses of all sizes.
+              </p>
+              <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+                So, if you are looking for a reliable software developer who can provide project-based services or work as a freelancer, look no further. Contact me today to discuss your software development needs, and let us work together to bring your ideas to life.
+              </p>
+            </div>
+
+          </section>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image alt="img1" src={design} width={100} height={100} />
@@ -91,7 +91,7 @@ export default function Home() {
                 Creating elegant designs suited for your needs following core
                 design theory.
               </p>
-              
+
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image alt='profile' src={code} width={100} height={100} />
@@ -102,7 +102,7 @@ export default function Home() {
                 Do you have an idea for your next great website? Let us make it a
                 reality.
               </p>
-             
+
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image alt='pic12' src={consulting} width={100} height={100} />
@@ -111,11 +111,11 @@ export default function Home() {
                 Are you interested in feedback for your current project? I can
                 give you tips and tricks to level it up.
               </p>
-              
+
             </div>
           </div>
         </section>
-        
+
       </main>
     </div>
   );
